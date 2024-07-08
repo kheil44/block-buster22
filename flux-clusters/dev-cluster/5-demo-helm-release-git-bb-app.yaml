@@ -16,7 +16,7 @@ spec:
   targetNamespace: 5-demo
   values:
     Service:
-      nodePort: 30005
+      nodePort: 30006
       type: NodePort
     labels:
       app:
