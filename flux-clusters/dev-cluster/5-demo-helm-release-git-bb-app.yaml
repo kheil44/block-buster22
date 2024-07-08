@@ -15,9 +15,6 @@ spec:
   interval: 10s
   targetNamespace: 5-demo
   values:
-    Service:
-      nodePort: 30006
-      type: NodePort
     labels:
       app:
         env: dev
@@ -26,3 +23,6 @@ spec:
     namespace:
       name: 5-demo
     replicaCount: 1
+    service:
+      nodePort: 30005
+      type: NodePort

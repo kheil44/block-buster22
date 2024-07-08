@@ -1,7 +1,7 @@
 ---
 replicaCount: 1
 
-Service:
+service:
   type: NodePort
   nodePort: 30005
 
