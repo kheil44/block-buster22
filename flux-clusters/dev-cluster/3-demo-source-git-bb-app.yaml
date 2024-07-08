@@ -8,4 +8,4 @@ spec:
   interval: 10s
   ref:
     branch: 3-demo
-  url: https://github.com/kheil44/bb-app-source
+  url: https://github.com/kheil44/bb-app-source22
